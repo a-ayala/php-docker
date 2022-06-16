@@ -1,0 +1,22 @@
+{
+    "name": "aayala/clean-code",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test"
+        }
+    },
+    "authors": [
+        {
+            "name": "a-ayala",
+            "email": "aidanayala.web@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
